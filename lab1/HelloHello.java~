@@ -1,0 +1,8 @@
+public class HelloHello
+{
+	public static void main (String[] args) {
+		Greeting hiGreeting = new Greeting("person");
+		String greet = personGreeting.sayHello();
+		System.out.println(greet);
+	}
+}
